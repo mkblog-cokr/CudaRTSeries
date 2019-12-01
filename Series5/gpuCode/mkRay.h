@@ -1,3 +1,4 @@
+#ifndef MKRAY_H
 #define MKRAY_H
  
 #include "mkVec3.h"
@@ -28,3 +29,5 @@ class ray{
         vec3 A;
         vec3 B;
 };
+
+#endif
